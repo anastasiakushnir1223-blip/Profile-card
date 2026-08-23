@@ -1,0 +1,37 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/cats/32_cats.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ff8dd3, #7be9ff);
+    border-radius: 40px;
+    padding: 25px;
+    color: white;
+    text-shadow: 5px 6px 13px rgba(0,0,0,0.96);
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn{
+    border-radius: 200px;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, #6a87fb, #f690fb) padding-box, linear-gradient(to right, #5739ff, #ff3838) border-box;
+    color: rgb(255, 255, 255);
+}
